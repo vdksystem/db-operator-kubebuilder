@@ -1,0 +1,15 @@
+apiVersion: clarizen.cloud.clarizen.cloud/v1beta1
+kind: Database
+metadata:
+  name: sample
+spec:
+  # Add fields here
+  type: postgres
+  #  TODO: make it invisible by default
+  # TODO: do not allow drop in production
+  drop: true
+  users:
+    - falcon
+    - go
+    - test
+    - clarizen_admin

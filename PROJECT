@@ -1,0 +1,7 @@
+domain: clarizen.cloud
+repo: db-operator
+resources:
+- group: clarizen.cloud
+  kind: Database
+  version: v1beta1
+version: "2"

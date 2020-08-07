@@ -1,0 +1,10 @@
+apiVersion: clarizen.cloud.clarizen.cloud/v1beta1
+kind: Database
+metadata:
+  name: testdb
+spec:
+  # Add fields here
+  type: postgres
+  drop: false
+  # TODO: check schema
+  schema: go
